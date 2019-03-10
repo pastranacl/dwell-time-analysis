@@ -16,7 +16,7 @@ for( i = 1:1:rows )
     end
 end
 
-for( i = 1:1:rows ) 
+for( i = T0_frame:1:rows ) 
     if( input_data(i, 1) >= Tf )
         Tf_frame = i;
         break;
