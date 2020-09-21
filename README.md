@@ -8,9 +8,6 @@ This software was used in the work "Dynamics of DNA nicking and unwinding by the
 
 # Usage
 
-The file 'dt_analysis.sh' is a Bash script that analysis all the .txt files in a given folder, with each file containing (in columns) time, the extension of a translocation experiment, time of translocation initiation (single_row) and end time of translocation (single row). The script sends the data to the Octave function 'dt_analysis.m' to load, filter and pre-analyze the data. Then, the function 'dwell_time.m' executes the dwell time analysis for a given file previoulsy processed by 'dt_analysis'. A file 'dwell_times.dat' is generated containing a list of all the dwell times. Finally, the main Bash scriptgenerates the dwell times histograms, saved as 'dwell_time_histogram.dat' and calls to Gnuplot for data reppresentation and fitting.
-
-
 Traces and codes have to be located on the same path. Each trace file containing (in columns) time, the extension of a translocation experiment, time of translocation initiation (single_row) and end time of translocation (single row). To execute simply run
 ```
 ./dt_analysis.sh
