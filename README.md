@@ -9,7 +9,7 @@ This software was used in the work "Dynamics of DNA nicking and unwinding by the
 # Usage
 
 This codes are Linux-based and are executed at terminal level.
-Traces and codes have to be located on the same path. Traces files can have any name but they must have the .txt extension. Each trace file contains (in columns) time, the extension of a translocation experiment, time of translocation initiation (single row) and end time of translocation (single row). In other words, the output of `head my_trace_data.txt` should be similar to:
+Traces and codes have to be located on the same path. Traces files can have any name but they must be .txt in extension. Each trace file contains (in columns) time, the extension of a translocation experiment, time of translocation initiation (single row) and end time of translocation (single row). In other words, the output of `head my_trace_data.txt` should be similar to:
 
 ```
 Time(s)   Extension(um)   t0(s)   tf(s)
