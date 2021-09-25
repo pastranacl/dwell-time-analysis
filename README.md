@@ -6,7 +6,7 @@ Dwell time analysis of single-molecule force-spectroscopy data.
 This software was used in the work "Dynamics of DNA nicking and unwinding by the RepC–PcrA complex" Carolina Carrasco, Cesar L Pastrana, Clara Aicart-Ramos, Sanford H Leuba, Saleem A Khan, Fernando Moreno-Herrero [Nucleic Acids Research](https://academic.oup.com/nar/article/48/4/2013/5701458), 48(4), 2020:  2013–2025.
 
 
-# Usage
+## Usage
 
 These codes are Linux-based and are executed at terminal level.
 Single-molecule extension traces and codes have to be located on the same path. Traces files can have any name but they must be .txt in extension. Each trace file contains (in columns) time, the extension of a translocation experiment, starting time of translocation (single row) and the time when translocation is finished (single row). In other words, the output of `head my_trace_data.txt` should be similar to:
